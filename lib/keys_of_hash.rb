@@ -1,5 +1,7 @@
 class Hash
   def keys_of(*arguments)
-    # code goes here
+    keys_arr = []
+    arguments.each do |arg|
+      if Hash.keys.include?(arg)
   end
 end
